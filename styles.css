@@ -107,12 +107,34 @@ img {
     border-radius: 15px;
     
 }
-@media (max-width: 600px) {
+@media (max-width: 800px) {
     body {
         align-items: flex-start;
+        font-size: 1.8rem;
     }
     .main {
         border: none;
         width: 100%;
+        padding: 15px;
+        margin: 15px;
     }
+    .sub {
+        font-size: 1rem;
+    }
+    
+}
+
+@media (max-width: 600px) {
+    body {
+        align-items: flex-start;
+        font-size: 1rem;
+    }
+}   .main {
+    border: none;
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+}
+.sub {
+    font-size: 9px;
 }
